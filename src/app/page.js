@@ -63,3 +63,8 @@ export default function Home() {
         </main>
     );
 }
+
+// priyampathak7
+// UuZU3yAhrJFCS7zX
+//productDB -> database name
+//products  -> cluster name
