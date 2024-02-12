@@ -17,7 +17,7 @@ export default function Home() {
                     <h2 className="pt-10 lg:text-7xl font-extrabold text-3xl pl-6">Your Feet<br />Deserves The Best!</h2>
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center">
-                    <Image src = {imgs} className=" lg:h-full h-72 ml-4"/>
+                    <Image src = {imgs} className=" lg:h-full h-72 ml-4" alt="img"/>
                 </div>
             </div>
 
@@ -32,21 +32,21 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row">
                 <div className="lg:w-1/4 h-auto rounded-lg shadow-xl m-8 p-4 text-center">
                     <h2 className="text-lg font-medium pb-8">Flexible Sports Wear</h2>
-                    <Image src={imgs2} className="h-30"/>
+                    <Image src={imgs2} className="h-30" alt="img"/>
                 </div>
                 <div className="lg:w-1/4 h-auto rounded-lg shadow-xl m-8 p-4 text-center">
                     <h2 className="text-lg font-medium pb-8">Sneakers With Trend</h2>
-                    <Image src={imgs3} className="h-30"/>
+                    <Image src={imgs3} className="h-30" alt="img"/>
                 </div>
 
                 <div className="lg:w-1/4 h-auto rounded-lg shadow-xl m-8 p-4 text-center">
                     <h2 className="text-lg font-medium pb-8">Style With Brogues</h2>
-                    <Image src={imgs4} className=" h-92"/>
+                    <Image src={imgs4} className=" h-92" alt="img"/>
                 </div>
 
                 <div className="lg:w-1/4 h-auto rounded-lg shadow-xl m-8 p-4 text-center">
                     <h2 className="text-lg font-medium pb-8">Being Your Boots</h2>
-                    <Image src={imgs5} className="h-30"/>
+                    <Image src={imgs5} className="h-30" alt="img"/>
                 </div>
             </div>
             <hr className=" w-screen h-1 bg-black opacity-30 m-4 mb-8"/>

@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className="flex flex-col lg:flex-row bg-neutral-900 h-auto w-full pt-6 pb-10">
         <div>
-            <Image src = {imgs} className=" h-60 w-64"/>
+            <Image src = {imgs} className=" h-60 w-64" alt='img'/>
         </div>
         <div>
             <h2 className="text-gray-50 font-mono lg:pl-24 pl-16 pt-10 text-2xl">LOCATIONS</h2>
@@ -30,7 +30,7 @@ export default function Footer() {
             </p>
         </div>
         <div>
-            <Image src = {imgs1} className=" h-32 w-60 lg:pl-20 pl-16 pt-8"/>
+            <Image src = {imgs1} className=" h-32 w-60 lg:pl-20 pl-16 pt-8" alt='img'/>
             <p className=" text-gray-400 font-mono lg:pl-20 pl-16 pt-6 text-xs pr-4">
                 Co-Powered and collaborated with Main <br/> Streams Productions. Also grab your <br/>slots for Goa's FW24 week and do connect <br/> with Shoeistan social media handles for more updates.
             </p>

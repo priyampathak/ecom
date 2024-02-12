@@ -40,14 +40,14 @@ export default function Navbar(p) {
         {count < 1 ?(
             <div className="flex px-12 pb-2 shadow-xl w-screen">
             <div className="flex w-3/4 pt-4">
-                <Link className="font-medium style list-none" href="/"><Image src={Images} className=" h-16" height={45} width={60}/></Link>
+                <Link className="font-medium style list-none" href="/"><Image src={Images} className=" h-16" height={45} width={60} alt='img'/></Link>
                 <Link className="font-medium style list-none py-4 pl-16 hidden lg:block" style={{color:col1}} href="/" >Home</Link>
                 <Link className="font-medium style list-none py-4 pl-16 hidden lg:block" style={{color:col2}} href='/explore'>Explore</Link>
                 <Link className="font-medium style list-none py-4 pl-16 hidden lg:block" style={{color:col3}} href='/Outlets'>Outlets</Link>
             </div>
             <div className="flex w-1/4 justify-end sm:pr-12 ">
                 <Link className="font-medium style list-none py-4 pr-16 mt-4 hidden lg:block"style={{color:col4}} href='/Auth'>Login</Link>
-                <button className="font-medium"><Link href='/Cart'><Image src = {Images1} className="h-8 pt-1 hidden lg:block" height={15} width={30}/></Link></button>
+                <button className="font-medium"><Link href='/Cart'><Image src = {Images1} className="h-8 pt-1 hidden lg:block" height={15} width={30} alt="img"/></Link></button>
 
                 <Link href={''} className="font-medium style list-none py-4 mt-4 block lg:hidden" onClick={()=>setCount(1)}>Menu</Link>
             </div>
@@ -58,7 +58,7 @@ export default function Navbar(p) {
             <div>
                 <div className="flex px-12 pb-2 shadow-xl w-screen h-80">
                     <div className="flex w-3/4 pt-4">
-                        <Link className="font-medium style list-none" href="/"><Image src={Images} className=" h-16" height={45} width={60}/></Link>
+                        <Link className="font-medium style list-none" href="/"><Image src={Images} className=" h-16" height={45} width={60} alt="img"/></Link>
                         
                     </div>
                     <div className="flex w-1/4 justify-end sm:pr-12 ">
