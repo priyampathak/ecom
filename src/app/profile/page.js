@@ -10,7 +10,7 @@ export default function page() {
 
   useEffect(()=>{
     if(status === "unauthenticated"){
-      redirect("/api/auth/signin");
+      redirect("/login");
     }
   }, [status]);
 
