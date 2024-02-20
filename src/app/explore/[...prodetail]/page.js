@@ -10,9 +10,9 @@ import hrt from '../../../assets/heartuf.png'
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
-export default function page({params}) {
+export default function Page({params}) {
 
-  const { data, error } = useSWR(`http://localhost:3000/api/prods/${params.prodetail[0]}`, fetcher);
+  const { data, error } = useSWR(`/api/prods/${params.prodetail[0]}`, fetcher);
   if (error) return <div>Error loading data</div>;
   if (!data) return <div>Loading...</div>;
   var obj = data.result.size;

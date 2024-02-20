@@ -12,7 +12,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export default function Page() { // Corrected component name to start with a capital letter
 
-  const { data, error } = useSWR("http://localhost:3000/api/prods", fetcher);
+  const { data, error } = useSWR("/api/prods", fetcher);
   const count = 0
 
   if (error) return <div>Error loading data</div>;

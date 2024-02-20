@@ -26,13 +26,13 @@ export default function Footer() {
             </p>
         <h2 className="text-gray-50 font-mono lg:pl-24 pl-16 pt-6 text-2xl">Featuring ON</h2>
             <p className=" text-gray-400 font-mono lg:pl-24 pl-16 pt-6">
-                All collection to this store<br/> will also be  feature on Goa's FW24 week. 
+                All collection to this store<br/> will also be  feature on Goa FW24 week. 
             </p>
         </div>
         <div>
             <Image src = {imgs1} className=" h-32 w-60 lg:pl-20 pl-16 pt-8" alt='img'/>
             <p className=" text-gray-400 font-mono lg:pl-20 pl-16 pt-6 text-xs pr-4">
-                Co-Powered and collaborated with Main <br/> Streams Productions. Also grab your <br/>slots for Goa's FW24 week and do connect <br/> with Shoeistan social media handles for more updates.
+                Co-Powered and collaborated with Main <br/> Streams Productions. Also grab your <br/>slots for Goa fashion week and do connect <br/> with Shoeistan social media handles for more updates.
             </p>
         </div>
     </div> 

@@ -8,7 +8,7 @@ export default function BlockedSignIn() {
 
   useEffect(() => {
     // Redirect to another page when this page is accessed
-    redirect("/login"); // You can redirect to any page you want
+    redirect("/login/error"); // You can redirect to any page you want
   }, []);
 
   // This component doesn't render anything, as it's used for redirection
